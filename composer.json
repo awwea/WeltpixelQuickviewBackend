@@ -1,0 +1,21 @@
+{
+    "name": "weltpixel/m2-weltpixel-backend",
+    "description": "WeltPixel Backend Module",
+    "authors": [
+      {
+      "name": "code",
+      "email": "magento@code.com"
+      }
+    ],
+    "require": {},
+    "type": "magento2-module",
+    "version": "1.0.7",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WeltPixel\\Backend\\": ""
+        }
+    }
+}
